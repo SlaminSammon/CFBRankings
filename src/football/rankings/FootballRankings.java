@@ -16,12 +16,13 @@ public class FootballRankings {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws FileNotFoundException{
-        ArrayList<Team> teams = readTeamNames();
-        teams = readStats(teams);
+        ArrayList<Team> teams = readTeamNames();//Read the teams in.
+        teams = readStats(teams);//Read stats
         for(int i = 0; i < teams.size(); ++i){
-            teams.get(i).calculateScore();
+            teams.get(i).calculateScore();//Calculate each teams score
         }
         teams = sortTeams(teams);
+        //Open print writers for all text files we have. This may be inefficient, see if you can use just one?
         int j =1, ACC=1, AAC=1, B12=1, BIG=1, CUSA=1, MAC=1, MWC=1,PAC=1,SEC=1,SB=1;
         PrintWriter mainWriter = new PrintWriter("2015rankings.txt");
         PrintWriter ACCWriter = new PrintWriter("2015ACCrankings.txt");
@@ -35,6 +36,8 @@ public class FootballRankings {
         PrintWriter SECWriter = new PrintWriter("2015SECrankings.txt");
         PrintWriter SBWriter = new PrintWriter("2015SBrankings.txt");
         for(int i=teams.size()-1; i >= 0;--i){
+            /* Each of these do the same thing.
+               Just varies by conference for conference rankings */
             mainWriter.println(j + "\t" + teams.get(i).schoolName + "     " +teams.get(i).getScore());
             ++j;
             if(teams.get(i).conference.equals("ACC")){
@@ -79,6 +82,7 @@ public class FootballRankings {
             }
             else{}
         }
+    //Close everything
         mainWriter.close();
         ACCWriter.close();
         AACWriter.close();
@@ -117,6 +121,14 @@ public class FootballRankings {
         try{
             int i = 0;
             Scanner reader = new Scanner(file);
+            //Read throughout all the stats
+            /*Order is Points Scored per Game
+              Points allowed per game
+              Yards gained per game
+              Yards allowed per game
+              Win %
+              turnover differential
+            */
             while(reader.hasNext()){
                 String holder = reader.nextLine();
                 String[] parts = holder.split(",");

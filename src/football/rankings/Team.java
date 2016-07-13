@@ -64,14 +64,23 @@ public class Team {
     public double getScore(){
         return score;
     }
+    /*Calculate the true turnover differential of a team
+      This varies based on a teams win percentage.
+      If a team has a negative TD and a win % > .5 punish them slightly.
+      Same with positive Td win % < .5.
+      */
     public double calcTTD(){
         double diffAvg = winPercentage - .5;
+        //This is an adjusted turnover differential based on winning percentage.
         double TTD = turnDiff * diffAvg + turnDiff;
         if((winPercentage > .5 && turnDiff < 0) || (winPercentage < .5 && turnDiff > 0))
             return TTD;
         else return turnDiff;
         
     }
+    /*This function exists due to the 2 scenarios that play.
+      This function punishes bad TD.
+      */
     public double calcScoreTurn(){
         double TD = calcTTD();
         if(TD > 0) return (2 * (TD/TDH));
