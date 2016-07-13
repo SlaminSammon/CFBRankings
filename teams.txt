@@ -1,0 +1,129 @@
+Air Force-MWC
+Akron-MAC
+Alabama-SEC
+Appalachian State-SUN_BELT
+Arizona-PAC12
+Arizona State-PAC12
+Arkansas-SEC
+Arkansas State-SUN_BELT
+Army-INDEPENDENT
+Auburn-SEC
+BYU-INDEPENDENT
+Ball State-MAC
+Baylor-BIG12
+Boise State-MWC
+Boston College-ACC
+Bowling Green-MAC
+Buffalo-MAC
+California-PAC12
+Central Michigan-MAC
+Charlotte-CUSA
+Cincinnati-AAC
+Clemson-ACC
+Colorado-PAC12
+Colorado State-MWC
+Connecticut-AAC
+Duke-ACC
+East Carolina-AAC
+Eastern Michigan-MAC
+Florida-SEC
+Florida Atlantic-CUSA
+Florida International-CUSA
+Florida State-ACC
+Fresno State-MWC
+Georgia-SEC
+Georgia Southern-SUN_BELT
+Georgia State-SUN_BELT
+Georgia Tech-ACC
+Hawai'i-MWC
+Houston-AAC
+Idaho-SUN_BELT
+Illinois-BIG10
+Indiana-BIG10
+Iowa-BIG10
+Iowa State-BIG12
+Kansas-BIG12
+Kansas State-BIG12
+Kent State-MAC
+Kentucky-SEC
+LSU-SEC
+Louisiana Tech-CUSA
+Louisiana_Lafayette-SUN_BELT
+Louisiana_Monroe-SUN-BELT
+Louisville-ACC
+Marshall-MAC
+Maryland-BIG10
+Massachusetts-MAC
+Memphis-AAC
+Miami (Florida)-ACC
+Miami (Ohio)-MAC
+Michigan-BIG10
+Michigan State-BIG10
+Middle Tennessee-CUSA
+Minnesota-BIG10
+Mississippi-SEC
+Mississippi State-SEC
+Missouri-SEC
+Navy-AAC
+Nebraska-BIG10
+Nevada-MWC
+New Mexico-MWC
+New Mexico State-SUN_BELT
+North Carolina-ACC
+North Carolina State-ACC
+North Texas-CUSA
+Northern Illinois-MAC
+Northwestern-BIG10
+Notre Dame-INDEPENDENT
+Ohio-MAC
+Ohio State-BIG10
+Oklahoma-BIG12
+Oklahoma State-BIG12
+Old Dominion-CUSA
+Oregon-PAC12
+Oregon State-PAC12
+Penn State-BIG10
+Pittsburgh-ACC
+Purdue-BIG10
+Rice-CUSA
+Rutgers-BIG10
+SMU-AAC
+San Diego State-MWC
+San Jose State-MWC
+South Alabama-SUN_BELT
+South Carolina-SEC
+South Florida-AAC
+Southern Mississippi-CUSA
+Stanford-PAC12
+Syracuse-ACC
+TCU-BIG12
+Temple-AAC
+Tennessee-SEC
+Texas-BIG12
+Texas A&M-SEC
+Texas State-SUN_BELT
+Texas Tech-BIG12
+Toledo-MAC
+Troy-SUN_BELT
+Tulane-AAC
+Tulsa-AAC
+UCF-AAC
+UCLA-PAC12
+UNLV-MWC
+USC-PAC12
+UTEP-CUSA
+UTSA-CUSA
+Utah-PAC12
+Utah State-MWC
+Vanderbilt-SEC
+Virginia-ACC
+Virginia Tech-ACC
+Wake Forest-ACC
+Washington-PAC12
+Washington State-PAC12
+West Virginia-BIG12
+Western Kentucky-CUSA
+Western Michigan-MAC
+Wisconsin-BIG10
+Wyoming-MWC
+
